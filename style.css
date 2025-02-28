@@ -1,0 +1,113 @@
+
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+    margin: 0;
+    height: 80vh;
+    /* position: relative; */
+    /* min-width: 400px; */
+}
+
+
+/* .main{
+    position: relative;
+} */
+
+
+.test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 20px;
+    margin: 5px;
+    height: 25vh;
+    width: 40%;
+    min-width: 400px;
+    background-color: rgb(181, 101, 167);
+    /* top: 100px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 2%;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 1.5rem;
+    text-align: center;
+    /* position: relative; */
+    position: absolute;
+}
+
+img{
+   height: 15vh;
+   width: 15vh;
+   border-radius: 50%;
+   position: absolute;
+   left: 50%;
+   /* top: -50%; */
+   top: -20%; 
+   transform: translateX(-50%);
+   /* transform: translateY(-50%); */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* .testimonial{
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 10px;
+    position: absolute;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40%;
+}    */
+
+.signature{
+    color: white;
+    font-family: cursive;
+    font-size: 1rem;
+    position: absolute;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70%;
+    
+}
+
+/* .left{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    right: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.right{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+} */
+
+button{
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    height: 15%;
+    width: 15%;
+}
